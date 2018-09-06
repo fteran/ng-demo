@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
+## Push repository to GitHub
+
+git remote add origin https://github.com/fteran/ng-demo.git  
+git push -u origin master
+
+## Build and publish to GitHub Pages
+
+ng build --prod --base-href https://fteran.github.io/ng-demo/  
+ngh --dir dist\hello-world
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
